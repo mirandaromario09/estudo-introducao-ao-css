@@ -1,22 +1,16 @@
-# CSS na Prática
+# Estudo de Introdução ao CSS
 
-Meu primeiro contato com CSS. Aprendizados básicos:
+Projeto pra aprender o básico de estilização com CSS.
 
-## O que eu fiz
+## Conceitos estudados
 
-- Criei um HTML simples com headings (`h1`, `h2`), parágrafos e um link
-- Conectei uma folha de estilo externa com a tag `<link>`
-- Estilizei as cores, fonte e espaçamento da página
-
-## O que aprendi
-
-- CSS pode ser aplicado usando seletores de **tag** (ex: `h1 { }`) — sem precisar de classes
-- A tag `<link>` não tem fechamento, igual `<meta>`, `<img>`, `<br>`
-- Cores no CSS com nome em inglês (`white`) ou hexadecimal (`#23fc76`)
-- A importância do `@charset "UTF-8"` no começo do CSS para acentos funcionarem
+- **CSS externo** — usar `<link>` pra conectar um arquivo `.css`
+- **Seletores de tag** — estilizar elementos como `h1`, `p`, `a` sem precisar de classes
+- **Cores** — nome em inglês (`white`) ou hexadecimal (`#23fc76`)
+- **`@charset "UTF-8"`** — pra acentos funcionarem no CSS
 
 ## Arquivos
 
 - `index.html` — página principal
-- `pagina02.html` — segunda página com link de volta
+- `pagina02.html` — segunda página
 - `style.css` — folha de estilos
